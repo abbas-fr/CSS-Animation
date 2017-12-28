@@ -1,3 +1,3 @@
-$(".trigger").on("click", function () {
-    $(this).toggleClass("clicked");
+$("html").on("click", function () {
+    $(this).find('body').append('<div class="box"></div>');
 })
